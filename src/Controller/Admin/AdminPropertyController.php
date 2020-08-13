@@ -87,7 +87,7 @@ class AdminPropertyController extends AbstractController
     }
 
     /**
-     * @Route("amin/property/delete/{id}", name="admin.property.delete", methods="DELETE")
+     * @Route("admin/property/delete/{id}", name="admin.property.delete", methods="DELETE")
      * @param Property $property
      * @param Request $request
      * @return Response
